@@ -1,10 +1,12 @@
 package pl.sda.sapiens.ep.repository;
 
+import org.springframework.stereotype.Repository;
 import pl.sda.sapiens.ep.model.entity.EventEntity;
 
 import java.time.LocalDateTime;
 import java.util.*;
 
+@Repository
 public class InMemoryEventRepository implements EventRepository{
     private Map<Long, EventEntity> events = new HashMap<>();
 
