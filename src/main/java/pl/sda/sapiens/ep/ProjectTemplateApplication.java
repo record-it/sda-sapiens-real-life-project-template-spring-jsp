@@ -1,11 +1,11 @@
-package pl.sda.sapiens.pt;
+package pl.sda.sapiens.ep;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-@SpringBootApplication(scanBasePackages = "pl.sda.sapiens.pt")
+@SpringBootApplication(scanBasePackages = "pl.sda.sapiens.ep")
 public class ProjectTemplateApplication extends SpringBootServletInitializer {
 
     @Override
@@ -14,7 +14,9 @@ public class ProjectTemplateApplication extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
+
         SpringApplication.run(ProjectTemplateApplication.class, args);
+
     }
 
 }

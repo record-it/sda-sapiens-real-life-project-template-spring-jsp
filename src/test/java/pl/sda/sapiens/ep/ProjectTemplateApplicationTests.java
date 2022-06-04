@@ -1,4 +1,4 @@
-package pl.sda.sapiens.pt;
+package pl.sda.sapiens.ep;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -5,6 +5,6 @@
     <title>View Books</title>
 </head>
 <body>
-    <h1>Hello ${name}</h1>
+    <h1>Hello ${name}. You are ${age} years old.</h1>
 </body>
 </html>
