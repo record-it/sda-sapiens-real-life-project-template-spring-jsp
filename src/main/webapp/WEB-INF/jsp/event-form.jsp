@@ -6,6 +6,7 @@
     <title>Dodaj wydarzenie</title>
 </head>
 <body>
+<%@include file="nav.jspf"%>
 <div class="container sm col-6">
     <div class="container mt-3 mb-3">
         <h1 class="display-3">Dodaj wydarzenie</h1>
@@ -41,5 +42,6 @@
         </form>
     </div>
 </div>
+<%@include file="footer.jspf"%>
 </body>
 </html>

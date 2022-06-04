@@ -33,4 +33,9 @@ public class EventController {
         model.addAttribute("events",eventService.findCurrentEvents());
         return "event-list";
     }
+    @GetMapping("/event/list")
+    public String currentEventList(Model model){
+        model.addAttribute("events",eventService.findCurrentEvents());
+        return "event-list";
+    }
 }
