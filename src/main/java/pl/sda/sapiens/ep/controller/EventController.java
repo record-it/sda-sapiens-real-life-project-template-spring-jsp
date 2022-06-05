@@ -5,13 +5,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import pl.sda.sapiens.ep.model.entity.EventEntity;
 import pl.sda.sapiens.ep.model.view.EventForm;
 import pl.sda.sapiens.ep.service.EventService;
-
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 @Controller
 public class EventController {
 
